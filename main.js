@@ -23,6 +23,10 @@ if (correct > 1 && correct < 3) {
 	score = 1
 }
 
+if (correct > 2) {
+score = 0;
+}
+
 
 
 
@@ -30,6 +34,11 @@ if (correct > 1 && correct < 3) {
 
 
 document.getElementById('afterSubmit').style.visibility = "visible";
+
+
+document.getElementById("message").innerHTML = messages[score]
 document.getElementById('numberCorrect').innerHTML = "you got " + correct + " correct.";
 
 }
+
+
