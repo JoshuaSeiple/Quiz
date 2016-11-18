@@ -13,8 +13,9 @@ function check(){
 		if(question3 == "Radroach"){
 			correct++;
 		}
+		var pictures = ["img/win.gif", "img/blewIt.gif", "img/study.gif"]	
 		var messages = ["Great job", "Pretty good", "You need to study"]
-		var pictures = ["img/great job.gif", "img/ya blew it.gif", "img/You should be studying.gif"]	
+		
 
 var score;
 if (correct < 1) {
@@ -39,7 +40,8 @@ document.getElementById('afterSubmit').style.visibility = "visible";
 
 
 document.getElementById("message").innerHTML = messages[score]
-document.getElementById('numberCorrect').innerHTML = "you got " + correct + " correct.";
+document.getElementById("numberCorrect").innerHTML = "you got " + correct + " correct.";
+document.getElementById("picture").src = pictures[score];
 
 }
 
