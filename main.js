@@ -14,6 +14,8 @@ function check(){
 			correct++;
 		}
 		var messages = ["Great job", "Pretty good", "You need to study"]
+		var pictures = ["img/great job.gif", "img/ya blew it.gif", "img/You should be studying.gif"]	
+
 var score;
 if (correct < 1) {
 	score = 2;
