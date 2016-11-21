@@ -13,7 +13,7 @@ function check(){
 		if(question3 == "Radroach"){
 			correct++;
 		}
-		var pictures = ["img/win.gif", "img/blewIt.gif", "img/study.gif"]	
+		var pictures = ["img/great job.gif", "img/blewIt.gif", "img/study.gif"]	
 		var messages = ["Great job", "Pretty good", "You need to study"]
 		
 
